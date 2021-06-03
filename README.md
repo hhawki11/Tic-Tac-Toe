@@ -22,5 +22,9 @@ python3 manage.py runserver
 Running Frontend:  
 cd tictactoe  
 npm install  
-npm start
+npm start  
 
+Restarting Backend:  
+cd django-todo-react  
+pipenv shell  
+python3 manage.py flush  
