@@ -8,12 +8,19 @@ Calculates Winning Player.
 Stores winning player in database using Django REST Framework.  
 Front end made using function based React components.  
 Holds list of each game and the player who won.  
-List of moves done.  
+Stores list of moves done.  
 Able to go back to any move and replay it.  
  
+Running Backend:  
+cd django-todo-react  
+pip3 install pipenv  
+pipenv shell  
+pipenv install django  
+cd backend  
+python3 manage.py runserver  
+
 Running Frontend:  
+cd tictactoe  
 npm install  
 npm start
 
-Running Backend:  
-python3 manage.py runserver
